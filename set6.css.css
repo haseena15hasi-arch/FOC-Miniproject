@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.outer {
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
